@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav{
+    background: red;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    background: red;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+ul,li{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.ending button{
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    background: red;
+    color: white;
+    border: white 2px solid;
+    border-radius: 15px;
+}
